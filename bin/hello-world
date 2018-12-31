@@ -1,0 +1,25 @@
+#!/bin/bash
+
+echo who are you, miss?
+
+read who
+
+echo Hello,$who!
+
+echo How old are you?
+
+read age
+
+if [ "$age" -ge 20 ]
+then
+    echo You can drink.
+else 
+    echo You are too young to drink.
+fi
+
+FILES=/Users/ramanjitkaur/dev/*
+
+for file in $FILES
+do
+  echo $(basename $file)
+done
