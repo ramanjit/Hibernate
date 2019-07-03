@@ -10,7 +10,7 @@ public class OneToManyTest {
 		// TODO Auto-generated method stub
 		OneToManyDAO dao = null;
 		
-		dao = OneToManyDAOFactory.getInstance();
+		dao = OneToManyDAOFactory.getInstance(); 
 	
 		dao.saveData();
 		
